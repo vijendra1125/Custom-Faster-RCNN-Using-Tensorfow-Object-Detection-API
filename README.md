@@ -16,6 +16,6 @@ A sample project to detect custom object using Tensorflow object detection API
    - output
     - *inference graph get saved here*
    - train
-    - *checkpoints get saved here*
+    *checkpoints get saved here*
    - eval.ipynb
    - train.ipynb

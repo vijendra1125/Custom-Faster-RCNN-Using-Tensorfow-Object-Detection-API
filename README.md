@@ -33,7 +33,7 @@ Once you have captured pictures, transfer it to your PC and resize it to smaller
 
 ###### Label the data
 Now its time to label your training data. We will be doing it using labelImg library. To download this library use [THIS LINK](https://github.com/tzutalin/labelImg). 
-Once you have labelImg library downloaded on your PC, run lableImg.py. Select *JPEGImages* directory by clicking on *Open Dir* and change your save directory to *Annotations* by clicking on *Change Save Dir*. Now all you need to do is to draw rectangles around the you are planning to detect and save it so that Annotations will get saved as .xml file in *Annotations* folder. 
+Once you have labelImg library downloaded on your PC, run lableImg.py. Select *JPEGImages* directory by clicking on *Open Dir* and change your save directory to *Annotations* by clicking on *Change Save Dir*. Now all you need to do is to draw rectangles around the you are planning to detect after clicking on *Create RectBox* and save it so that Annotations will get saved as .xml file in *Annotations* folder. 
 
 ![screenshot 2018-10-02 01 08 08](https://user-images.githubusercontent.com/5885636/46311801-eb8c8080-c5e0-11e8-8444-aa45e39b1414.png)
 

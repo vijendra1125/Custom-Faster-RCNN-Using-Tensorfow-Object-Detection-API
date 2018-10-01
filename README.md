@@ -4,8 +4,7 @@ A sample project to detect custom object using Tensorflow object detection API
 ## Folder Structure
 - Tensorflow_API-Custom_object_detection
   - dataset
-    - VOC2012
-      - Annotations
+   - Annotations
         - *Annotations for your images comes here*
       - JPEGImages
         - *all of your images for training comes here*

@@ -14,8 +14,8 @@ A sample project to detect custom object using Tensorflow object detection API
       - lable.pbtxt
       - train.record
    - output
-     - *inference graph get saved here*
+     - *inference graph will be saved here*
    - train
-     - *checkpoints get saved here*
+     - *checkpoints will be saved here*
    - eval.ipynb
    - train.ipynb

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>s8.JPG</filename>
+	<path>/Users/vijendra1125/Google Drive/learning/DL/projects/object_detection/speaker_detection/dataset/VOC2012/JPEGImages/s8.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>st</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1429</xmin>
+			<ymin>1268</ymin>
+			<xmax>1891</xmax>
+			<ymax>1718</ymax>
+		</bndbox>
+	</object>
+</annotation>

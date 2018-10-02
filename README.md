@@ -73,9 +73,9 @@ For more help run following:
 ```
 python object_detection/dataset_tools/create_pascal_tf_record.py -h
 ```
-An example path will be:
+An example will be:
 ```
-Python object_detection/dataset_tools/create_pascal_tf_record.py --data_dir=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset --annotations_dir==Annotations --output_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/train.record --label_map_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/label.pbtxt
+Python object_detection/dataset_tools/create_pascal_tf_record.py --data_dir=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset --annotations_dir==Annotations --output_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/CP.record --label_map_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/label.pbtxt
 ```
 
 
@@ -94,7 +94,7 @@ python object_detection/export_inference_graph.py --input_type=image_tensor --pi
 ```
 An example will be
 ```
-python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/faster_rcnn_resnet101_coco.config --trained_checkpoint_prefix=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/train/model.ckpt-1691 --output_directory=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/IG
+python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/faster_rcnn_resnet101_coco.config --trained_checkpoint_prefix=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/CP/model.ckpt-1691 --output_directory=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/IG
 ```
 **Bonus:If you want to train your model using Google colab then check out the train.ipynb file**
 

@@ -4,7 +4,7 @@ A sample project to detect custom object using Tensorflow object detection API
 
 ## Folder Structure
 - Tensorflow_API-Custom_object_detection
-  - pre_trained_model
+  - pre_trained_models
     - *downloaded files for choosen pretrained model will come here* 
   - dataset
     - Annotations

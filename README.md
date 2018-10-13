@@ -75,7 +75,7 @@ python object_detection/dataset_tools/create_pascal_tf_record.py -h
 ```
 An example will be:
 ```
-Python object_detection/dataset_tools/create_pascal_tf_record.py --data_dir=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset --annotations_dir==Annotations --output_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/CP.record --label_map_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/label.pbtxt
+Python object_detection/dataset_tools/create_pascal_tf_record.py --data_dir=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset --annotations_dir=Annotations --output_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/train.record --label_map_path=/Users/vijendra1125/Documents/tensorflow/object_detection/speaker_detection/dataset/label.pbtxt
 ```
 
 

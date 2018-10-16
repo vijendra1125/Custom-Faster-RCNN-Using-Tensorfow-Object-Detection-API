@@ -18,8 +18,8 @@ r"""Convert raw PASCAL dataset to TFRecord for object_detection.
 Example usage:
     python object_detection/dataset_tools/create_pascal_tf_record.py \
         --data_dir=/home/user/VOCdevkit \
-        --year=VOC2012 \
         --output_path=/home/user/pascal.record
+        --labe_map_path=/home/user/dataset/label.pbtxt
 """
 from __future__ import absolute_import
 from __future__ import division
@@ -52,8 +52,6 @@ flags.DEFINE_boolean('ignore_difficult_instances', False, 'Whether to ignore '
 FLAGS = flags.FLAGS
 
 SETS = ['train', 'val', 'trainval', 'test']
-YEARS = ['VOC2007', 'VOC2012', 'merged']
-
 
 def dict_to_tf_example(data,
                        dataset_directory,

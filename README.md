@@ -1,4 +1,4 @@
-# Tensorflow_API-Custom_object_detection
+# Tensorflow_Object_detection_API-Custom_Faster_RCNN
 A sample project to detect the custom object using Tensorflow object detection API
 
 

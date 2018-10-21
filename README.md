@@ -104,5 +104,4 @@ Finally, it's time to check the result of all the hard work you did. All you nee
 ![screenshot 2018-10-02 12 21 25](https://user-images.githubusercontent.com/5885636/46333404-edd0f800-c63d-11e8-9fef-eef260310a9b.png)
 ![screenshot 2018-10-02 12 21 39](https://user-images.githubusercontent.com/5885636/46333406-edd0f800-c63d-11e8-9b0f-a916b6fbdcc0.png)
 ![screenshot 2018-10-02 12 21 55](https://user-images.githubusercontent.com/5885636/46333407-ee698e80-c63d-11e8-984d-40c504b2b28f.png)
-![screenshot 2018-10-02 12 22 36](https://user-images.githubusercontent.com/5885636/46333409-ee698e80-c63d-11e8-9965-37f1b72eb456.png)
 
